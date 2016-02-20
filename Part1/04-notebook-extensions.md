@@ -2,11 +2,15 @@
 
 Notebook extensions allow users to control the behavior of the Notebook and add functionality.
 
-Extensions capabilities can range from loading notebook files from [Google Drive](https://github.com/jupyter/jupyter-drive), or PostgreSQL server, presenting notebooks in the form of a slideshow, to adding a convenient button or keyboard shortcut for an action the user does often.
+The capabilities of extensions can range from loading notebook files from
+[Google Drive](https://github.com/jupyter/jupyter-drive), or PostgreSQL server,
+presenting notebooks as slideshows, to adding a convenient button or keyboard shortcut for an action the user does often.
 
 The way we write Jupyter/IPython is to provide the minimal sensible default, with easy access to configuration for extension to modify behavior.
 
-Extensions can be composed of many pieces, but you will mostly find a Javascript part that lives on the frontend side (ie, the Browser), and a part that lives on the server side (written in Python). For now, we will focus on the Javascript side.
+Extensions can be composed of many pieces, but you will mostly find a Javascript
+part that lives on the frontend side (ie, the Browser), and a Python part that
+lives on the server side. For now, we will focus on the Javascript side.
 
 There are a number of repos here and there on the internet, and we haven't taken the time to write a Jupyter Store (yet), to make extensions easily installable. Well, I suppose this could be done as an extension, and your research on the web will probably show that it can be done, but we will still focus on the old manual way of installing extension to learn how things works, because that's why you are here.
 
