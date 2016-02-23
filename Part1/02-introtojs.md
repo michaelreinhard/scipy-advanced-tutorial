@@ -10,6 +10,8 @@ This chapter is here to give you the necessary basics on web technologies. We wi
 
 ## The web browser
 
+Herei is a piece of test code. 
+
 One of the key tool you use all the time when working on the web your web browser. I'm sure you use your browser everyday, but your browser can be your best ally or worst enemy. The number of functionalities that your browser have and can do is pretty large. Describing all the things can take days, so we will focus on the basics. I encourage you to learn more about what your browser can you by yourself.
 
 
