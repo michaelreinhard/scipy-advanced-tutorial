@@ -1,5 +1,7 @@
 # The Things of the Web
 
+This is the test of my github abilities. Can I actually get a new version of the document on line. 
+
 Hello reader, welcome to the beautiful world of Jupyter Notebook.
 One of the reason Jupyter Notebook is so awesome is that it leverages technologies from the web. This allow you to do a large number of things for free, like video, and audio in the Browser.
 
@@ -10,9 +12,7 @@ This chapter is here to give you the necessary basics on web technologies. We wi
 
 ## The web browser
 
-Herei is a piece of test code. 
-
-One of the key tool you use all the time when working on the web your web browser. I'm sure you use your browser everyday, but your browser can be your best ally or worst enemy. The number of functionalities that your browser have and can do is pretty large. Describing all the things can take days, so we will focus on the basics. I encourage you to learn more about what your browser can you by yourself.
+One of the key tools you use all the time when working online is your web browser. I'm sure you use your browser everyday, but your browser can be your best ally or worst enemy. The number of functionalities that your browser has and the number of things it can do is pretty large. Describing all these things could take days, so we will focus on the basics. I encourage you to learn more about what your browser can you on your own.
 
 
 ### Browser Choice
@@ -21,8 +21,7 @@ As a browser of choice I will use Chrome. Chrome comes by default with a lot of 
 
 If you are more a fan of Firefox, you may want to install the developer edition. It comes preconfigured with many defaults. The developer tools in the standard edition will get you a long way, however.
 
-The other major browser are Safari on MacOS, and Internet Explorer for Windows. Unfortunately, I am not familiar with either of them.
-As far as I know you can make most of what we will do in Safari. You might just have to enable developer mode in the advance preferences.
+The other major browser are Safari on MacOS, and Internet Explorer for Windows. Unfortunately, I am not familiar with either of them. As far as I know you can make most of what we will do in Safari. You might just have to enable developer mode in the advance preferences.
 
 ## Developer tools.
 
