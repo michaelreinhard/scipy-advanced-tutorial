@@ -29,9 +29,9 @@ for(var i in elts){
 
 ## Underscore (aka `_`),
 
-One beauty of javascript is its ability to use un-googleable names that have ambiguous meaning. This is one of the reason you find `.js` or `js` suffixes in javascript to reduce the ambiguity. Though it is not always the case. In particular you will find a few modules that have the good habit of being bound (or bind themselves) to `_`. Thus you might see things like `_.map`, `_.proxy`,`_.filter`, ...
+One beauty of javascript is its ability to use un-googleable names that have ambiguous meaning. This is one of the reasons you find `.js` or `js` suffixes in javascript to reduce the ambiguity, though it is not always the case. In particular you will find a few modules that have the good habit of being bound (or bind themselves) to `_`. Thus you might see things like `_.map`, `_.proxy`,`_.filter`, ...
 
-Most of the time the library bound to `_` is called "Underscore", but still rarely name "Underscore.js". It provides a few utility functions.
+Most of the time the library bound to `_` is called "Underscore", or, more rarely, "Underscore.js". It provides a few utility functions.
 
 ## This or that ?
 
@@ -114,10 +114,10 @@ define(
 )
 ```
 
-`require` is used in the same way unless you want to run the code that create the
+`require` is used in the same way unless you want to run the code that creates the
 module as soon as possible. Rule of thumb: use `define` unless you cannot.
 
-In **some** cases, you can though use a simple syntax:
+In **some** cases, you can, though, use a simple syntax:
 
 ```javascript
 define(function(){
@@ -130,8 +130,7 @@ define(function(){
 })
 ```
 
-Which is easier to read, but only works if the module you refer to has already been imported.
-It also allows you to get handle to modules in the REPL.
+Which is easier to read, but only works if the module you refer to has already been imported. It also allows you to get handles to modules in the REPL.
 
 
 ## "use strict"
@@ -148,7 +147,7 @@ Top of module scope does not always mean top of file - using `"use strict"` at t
 
 ## unlimited argument, default to undefined
 
-One thing to be aware of is that Javascript will never complain if you pass too many of too few arguments to a function.
+One thing to be aware of is that Javascript will never complain if you pass too many or too few arguments to a function.
 
 Thus you probably want to check arguments for undefined. This can be helpful though for default values.
 
@@ -164,7 +163,7 @@ Hi Matthias
 
 ## ==, ===
 
-Javascript test for equality is done with triple equal, not double equal.
+Javascript's test for equality is done with triple equal, not double equal.
 Double equal will try to cast both members before doing a "smart" comparison,
 leading to some unexpected behaviour:
 
@@ -198,7 +197,7 @@ X = (function(A){
 
 (look like lisp right ?)
 
-These are basically a work around some scoping problem in JS. Imagine that in python:
+These are basically work arounds for some scoping problems in JS. Imagine that in python:
 
 ```javascript
 >>> for i in range(5):
